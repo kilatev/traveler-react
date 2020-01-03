@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
+import {store} from "./redux";
 import './style.css';
 
 interface AppProps { }
